@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" role="img" aria-labelledby="title desc">
+  <title id="title">Synthetic tailgate-to-body panel gap illustration</title>
+  <desc id="desc">Rear vehicle engineering diagram, not a photograph. A callout identifies a panel gap for measurement; no dimension or defect is established by this illustration.</desc>
+  <style>:root{--cp-bg:#f7f4ef;--cp-text:#242424;--cp-text-muted:#5c5c5c;--cp-border:#dedede;--cp-warning:#f59e0b}text{font-family:"Segoe UI",sans-serif;fill:var(--cp-text)}.line{fill:none;stroke:var(--cp-text-muted);stroke-width:3}.fine{fill:none;stroke:var(--cp-border);stroke-width:1}</style>
+  <rect width="560" height="360" fill="var(--cp-bg)"/>
+  <path class="fine" d="M0 80H560M0 160H560M0 240H560M80 0V360M160 0V360M240 0V360M320 0V360M400 0V360M480 0V360"/>
+  <text x="24" y="30" font-size="12" letter-spacing="2">COMPONENT STUDY / TAILGATE GAP</text>
+  <path class="line" d="M100 275V147L137 69H368L411 147V275ZM140 139L164 90H341L367 139ZM126 153H385V253H126ZM98 270H416V291H98ZM103 173H123V214H103ZM387 173H409V214H387Z"/>
+  <path class="line" d="M226 233H282M143 276V291M369 276V291"/>
+  <circle cx="382" cy="182" r="38" fill="none" stroke="var(--cp-warning)" stroke-width="2" stroke-dasharray="5 4"/>
+  <path d="M410 158L450 112H536" fill="none" stroke="var(--cp-warning)" stroke-width="2"/>
+  <text x="421" y="96" font-size="11">GAP / MEASURE</text>
+  <text x="172" y="205" font-size="11">TAILGATE / REAR VIEW</text>
+  <text x="24" y="326" font-size="11">SYNTHETIC ILLUSTRATION - NOT A DEFECT DIAGNOSIS</text>
+  <text x="24" y="345" font-size="10">Use an approved gauge to establish gaps and flushness; image has no scale.</text>
+</svg>

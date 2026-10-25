@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" role="img" aria-labelledby="title desc">
+  <title id="title">Synthetic upper door hinge illustration</title>
+  <desc id="desc">Engineering schematic, not a photograph. An amber callout marks the upper hinge for inspection.</desc>
+  <style>:root{--cp-bg:#f7f4ef;--cp-text:#242424;--cp-text-muted:#5c5c5c;--cp-border:#dedede;--cp-warning:#f59e0b}text{font-family:"Segoe UI",sans-serif;fill:var(--cp-text)}.line{fill:none;stroke:var(--cp-text-muted);stroke-width:3}.fine{fill:none;stroke:var(--cp-border);stroke-width:1}</style>
+  <rect width="560" height="360" fill="var(--cp-bg)" />
+  <path class="fine" d="M0 60H560M0 120H560M0 180H560M0 240H560M0 300H560M80 0V360M160 0V360M240 0V360M320 0V360M400 0V360M480 0V360"/>
+  <text x="26" y="32" font-size="12" letter-spacing="2">COMPONENT STUDY / FL DOOR</text>
+  <path class="line" d="M180 68L388 77Q445 110 452 272L210 288Z M202 98L365 107L408 196L208 211Z M204 222L410 210M226 256L295 252"/>
+  <path class="line" d="M143 88L175 88L179 283L147 284ZM153 110L197 109L198 138L155 140ZM158 230L202 227L203 255L161 259"/>
+  <circle cx="177" cy="125" r="40" fill="none" stroke="var(--cp-warning)" stroke-width="2" stroke-dasharray="5 4"/>
+  <path d="M213 99L300 58L420 58" fill="none" stroke="var(--cp-warning)" stroke-width="2"/>
+  <text x="304" y="49" font-size="11">UPPER HINGE / INSPECT</text>
+  <circle cx="176" cy="123" r="5" fill="var(--cp-warning)"/>
+  <text x="26" y="326" font-size="11">SYNTHETIC ILLUSTRATION - NOT A DEFECT DIAGNOSIS</text>
+  <text x="26" y="344" font-size="10">Verify alignment using an approved measurement system.</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" role="img" aria-labelledby="title desc">
+  <title id="title">Synthetic front-left door latch and striker illustration</title>
+  <desc id="desc">Engineering diagram, not a photograph. A callout identifies the latch engagement and striker position for inspection, not a confirmed defect.</desc>
+  <style>:root{--cp-bg:#f7f4ef;--cp-text:#242424;--cp-text-muted:#5c5c5c;--cp-border:#dedede;--cp-warning:#f59e0b}text{font-family:"Segoe UI",sans-serif;fill:var(--cp-text)}.line{fill:none;stroke:var(--cp-text-muted);stroke-width:3}.fine{fill:none;stroke:var(--cp-border);stroke-width:1}</style>
+  <rect width="560" height="360" fill="var(--cp-bg)"/>
+  <path class="fine" d="M0 80H560M0 160H560M0 240H560M80 0V360M160 0V360M240 0V360M320 0V360M400 0V360M480 0V360"/>
+  <text x="24" y="30" font-size="12" letter-spacing="2">COMPONENT STUDY / FL DOOR LATCH</text>
+  <path class="line" d="M52 78H230L246 286H62ZM78 102H206L215 157H82ZM292 80H354V286H305ZM327 157H269V196H329"/>
+  <rect x="219" y="145" width="28" height="70" rx="5" class="line"/>
+  <path class="line" d="M227 169H247L250 185L232 192 M328 157V196"/>
+  <circle cx="255" cy="179" r="54" fill="none" stroke="var(--cp-warning)" stroke-width="2" stroke-dasharray="5 4"/>
+  <path d="M299 147L370 108H525" fill="none" stroke="var(--cp-warning)" stroke-width="2"/>
+  <text x="369" y="96" font-size="11">STRIKER / INSPECT POSITION</text>
+  <text x="83" y="267" font-size="11">DOOR EDGE</text>
+  <text x="365" y="248" font-size="11">BODY PILLAR</text>
+  <text x="24" y="326" font-size="11">SYNTHETIC ILLUSTRATION - NOT A DEFECT DIAGNOSIS</text>
+  <text x="24" y="345" font-size="10">Measure engagement, striker datum and closing force before any adjustment.</text>
+</svg>

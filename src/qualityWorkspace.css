@@ -1,0 +1,57 @@
+.quality-shell { max-width: 1600px; margin: auto; padding: 28px; }
+.quality-header, .quality-brand, .quality-nav, .quality-heading, .quality-pagination { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.quality-header, .quality-heading { justify-content: space-between; }
+.quality-brand { flex: 1; min-width: 0; }
+.quality-brand > svg { color: var(--cp-accent); flex-shrink: 0; }
+.quality-header h1 { font-size: 26px; margin: 0 0 4px; }
+.quality-header p, .quality-disclosure, .quality-card small, .quality-card dt, .quality-metrics span { color: var(--cp-text-muted); }
+.quality-nav { margin: 24px 0; padding-bottom: 20px; border-bottom: 1px solid var(--cp-border); }
+.quality-shell a { color: var(--cp-link); display: inline-flex; align-items: center; gap: 8px; }
+.quality-nav a { padding: 8px 0; }
+.quality-shell main { display: grid; gap: 20px; }
+.quality-card { background: var(--cp-surface); border: 1px solid var(--cp-border); border-radius: 16px; padding: 24px; min-width: 0; overflow-wrap: anywhere; }
+.quality-card h2 { font-size: 22px; margin: 12px 0; }
+.quality-card h3 { margin: 24px 0 12px; font-size: 17px; }
+.quality-card h3:first-child { margin-top: 0; }
+.quality-card p { line-height: 1.6; margin: 8px 0; }
+.quality-card li { margin-bottom: 12px; line-height: 1.6; }
+.quality-card code { font-family: Consolas, "Courier New", Courier, monospace; overflow-wrap: anywhere; }
+.quality-lead { font-size: 20px; }
+.quality-metrics { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.quality-metrics strong { display: block; font-size: 38px; margin-top: 12px; }
+.quality-detection, .quality-detail-grid { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 24px; }
+.quality-detection { border-color: var(--cp-warning); }
+.quality-detection button { margin-top: 20px; }
+.quality-detection figure { margin: 0; min-width: 0; }
+.quality-image { width: 100%; max-height: 360px; object-fit: contain; background: var(--cp-surface-soft); border: 1px solid var(--cp-border); border-radius: 10px; }
+.quality-detection figcaption, .quality-disclosure { font-size: 13px; line-height: 1.6; margin-top: 12px; display: block; }
+.quality-error { border: 1px solid var(--cp-danger); background: var(--cp-surface); padding: 20px; border-radius: 10px; }
+.quality-error strong { color: var(--cp-danger); }
+.quality-facts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; }
+.quality-facts dd, .quality-findings dd { margin: 8px 0 16px; overflow-wrap: anywhere; }
+.quality-facts small { display: block; }
+.quality-findings dt { text-transform: uppercase; font-size: 12px; letter-spacing: .08em; }
+.quality-vehicle-ids { font-family: Consolas, "Courier New", Courier, monospace; }
+.quality-alert { border-left: 4px solid var(--cp-warning); }
+.quality-link { margin: 16px 0; font-weight: 600; }
+.quality-search { display: flex; gap: 12px; align-items: end; margin: 20px 0; }
+.quality-search label { display: grid; gap: 8px; flex: 1; }
+.quality-search input { width: 100%; min-width: 0; }
+.quality-table-scroll { overflow-x: auto; }
+.quality-shell table { width: 100%; border-collapse: collapse; text-align: left; }
+.quality-shell th, .quality-shell td { border-bottom: 1px solid var(--cp-border); padding: 14px 12px; }
+.quality-shell th { color: var(--cp-text-muted); background: var(--cp-surface-soft); }
+.quality-pagination { justify-content: flex-end; margin-top: 20px; }
+.quality-history { padding-left: 20px; }
+.quality-history a { font-size: 17px; font-weight: 600; }
+@media (max-width: 900px) {
+  .quality-shell { padding: 16px; }
+  .quality-metrics, .quality-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .quality-detection, .quality-detail-grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 480px) {
+  .quality-header h1 { font-size: 22px; }
+  .quality-card { padding: 16px; }
+  .quality-metrics, .quality-facts { grid-template-columns: minmax(0, 1fr); }
+  .quality-search { align-items: stretch; flex-direction: column; }
+}
